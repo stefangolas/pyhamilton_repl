@@ -1,0 +1,40 @@
+[2022-09-21 16:31:19,814] root INFO ############################################################################
+[2022-09-21 16:31:19,814] root INFO #                                                                          #
+[2022-09-21 16:31:19,814] root INFO #     Begin execution of C:\Users\stefa\repl_calibrate\robot_method.py     #
+[2022-09-21 16:31:19,815] root INFO #                                                                          #
+[2022-09-21 16:31:19,815] root INFO ############################################################################
+[2022-09-21 16:31:19,815] pyhamilton.interface INFO starting a Hamilton interface
+[2022-09-21 16:31:19,815] pyhamilton.interface INFO started the oem application for simulation
+[2022-09-21 16:31:19,815] pyhamilton.interface INFO started the server thread
+[2022-09-21 16:31:19,815] root INFO initialize: synchronously initialize the robot
+[2022-09-21 16:31:36,377] asyncio DEBUG Using proactor: IocpProactor
+[2022-09-21 16:31:36,488] asyncio DEBUG Using proactor: IocpProactor
+[2022-09-21 16:33:30,359] pyhamilton.interface INFO sending end run command to simulator
+[2022-09-21 16:33:31,866] pyhamilton.interface ERROR HamiltonTimeoutError('Timed out after 1.5 sec while waiting for response id 0x0')
+[2022-09-21 16:33:31,866] pyhamilton.interface INFO disconnected from server
+[2022-09-21 16:33:31,979] pyhamilton.interface INFO server did not exit yet, sending dummy request to exit its loop
+[2022-09-21 16:33:31,979] urllib3.util.retry DEBUG Converted retries value: 20 -> Retry(total=20, connect=None, read=None, redirect=None, status=None)
+[2022-09-21 16:33:31,984] urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:3221
+[2022-09-21 16:33:31,988] urllib3.connectionpool DEBUG http://127.0.0.1:3221 "GET / HTTP/1.1" 200 None
+[2022-09-21 16:33:31,989] pyhamilton.interface INFO dummy get request sent to server
+[2022-09-21 16:33:32,017] pyhamilton.interface INFO server thread exited
+[2022-09-21 16:33:40,526] root INFO ############################################################################
+[2022-09-21 16:33:40,526] root INFO #                                                                          #
+[2022-09-21 16:33:40,526] root INFO #     Begin execution of C:\Users\stefa\repl_calibrate\robot_method.py     #
+[2022-09-21 16:33:40,526] root INFO #                                                                          #
+[2022-09-21 16:33:40,526] root INFO ############################################################################
+[2022-09-21 16:33:40,526] pyhamilton.interface INFO starting a Hamilton interface
+[2022-09-21 16:33:40,526] pyhamilton.interface INFO started the oem application for simulation
+[2022-09-21 16:33:40,526] pyhamilton.interface INFO started the server thread
+[2022-09-21 16:33:40,526] root INFO initialize: synchronously initialize the robot
+[2022-09-21 16:34:05,666] asyncio DEBUG Using proactor: IocpProactor
+[2022-09-21 16:34:11,985] asyncio DEBUG Using proactor: IocpProactor
+[2022-09-21 16:36:37,827] pyhamilton.interface INFO sending end run command to simulator
+[2022-09-21 16:36:39,405] pyhamilton.interface ERROR HamiltonTimeoutError('Timed out after 1.5 sec while waiting for response id 0x0')
+[2022-09-21 16:36:39,405] pyhamilton.interface INFO disconnected from server
+[2022-09-21 16:36:39,519] pyhamilton.interface INFO server did not exit yet, sending dummy request to exit its loop
+[2022-09-21 16:36:39,519] urllib3.util.retry DEBUG Converted retries value: 20 -> Retry(total=20, connect=None, read=None, redirect=None, status=None)
+[2022-09-21 16:36:39,528] urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:3221
+[2022-09-21 16:36:39,530] urllib3.connectionpool DEBUG http://127.0.0.1:3221 "GET / HTTP/1.1" 200 None
+[2022-09-21 16:36:39,531] pyhamilton.interface INFO dummy get request sent to server
+[2022-09-21 16:36:39,531] pyhamilton.interface INFO server thread exited
